@@ -3,22 +3,16 @@
 
 
 \begin{document}
-\maketitle
-\vspace{-1cm}
+\makecvheader
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter{\cvfooterleft}{\cvfootercenter}{\cvfooterright}
 
-\section{Work experience}
-	\input{experiences}
-
-\section{Education}
-	\input{academic_background}
-	
-\section{IT and language skills}
-	\input{competences}
-
-\section{Interests}
-	\input{interests}
-
-%\section{Referees}
-%	\input{references}
+\input{experiences}
+\input{academic_background}
+\newpage
+\input{competences}
+\input{interests}
+%\input{references}
 
 \end{document}
